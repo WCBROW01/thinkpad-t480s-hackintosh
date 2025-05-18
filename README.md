@@ -1,28 +1,25 @@
-**THIS HAS BEEN DISCONTINUED!** I no longer have the T480s so I will not be updating this EFI anymore, and it has been archived.
-
+This EFI is currently incomplete and is not very useful. At the moment, only Ventura works on my machine. Sonoma may have been broken with a point release. This will be fixed soon. Hopefully, in the future, I can get Sequoia working.
 
 # thinkpad-t480s-hackintosh
 A prebuilt OpenCore EFI for macOS on the Lenovo ThinkPad T480s
 
 **WARNING! If running Sonoma, ethernet IS required for initial half of setup if you use an internet-based installer. You will need to install Heliport for Wi-Fi. Ventura users can use Wi-Fi with no issues.**
 
-Use 1.x releases for Ventura, 2.x releases for Sonoma.
-
 This is a macOS EFI for the Lenovo ThinkPad T480s, with support for Intel Wi-Fi cards. Ventura and Sonoma compatible.
 
 Follow the "Downloading macOS" section in the Dortania guide to get macOS. ***Support will not be offered if you get macOS from any other source.*** https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html#downloading-macos. After installing macOS, you will need to disable force clicking, as by default macOS will register all clicks as force clicks (System Settings -> Trackpad -> Uncheck "Force Click and haptic feedback")
 
-![Screenshot](https://github.com/Lost-Entrepreneur439/thinkpad-t480s-hackintosh/blob/main/untitled.png)
+![Screenshot](https://github.com/WCBROW01/thinkpad-t480s-hackintosh/blob/main/untitled.png)
 
 # Specs of my specific unit:
 - CPU: Intel Core i5-8350u
 - GPU: Intel UHD Graphics 620
-- RAM: 16GB (8GB soldered, 8GB Kingston stick inserted)
+- RAM: 24GB (8GB soldered, 16GB Samsung stick inserted)
 - Touchpad: Elan SMBus
 - Audio: Realtek ALC257
 - Wi-Fi: Intel Wireless-AC 8265
 - Ethernet: Intel I219-LM
-- SSD: Intel 7600p 256GB
+- SSD: Intel 660p 512GB
 
 # Set BIOS settings as follows
 - Config -> Network -> Wake On LAN -> Disabled
@@ -37,6 +34,7 @@ Follow the "Downloading macOS" section in the Dortania guide to get macOS. ***Su
 - Startup -> CSM Support -> No
 
 # Credits
+- [Lost-Entrepreneur439](https://github.com/Lost-Entrepreneur439) -- Made the EFI this was based on
 - [Acidanthera](https://github.com/acidanthera) -- Made OpenCore, AppleALC, BlueToolFixup, BrightnessKeys, IntelMausi, Lilu, NVMeFix, SMCBatteryManager, SMCProcessor, SMCSuperIO, VirtualSMC, VoodooPS2Controller and WhateverGreen
 - [OpenIntelWireless](https://github.com/OpenIntelWireless) -- Made Airportitlwm, IntelBluetoothFirmware and IntelBTPatcher
 - [Avery Black](https://github.com/1Revenger1) -- Made ECEnabler
