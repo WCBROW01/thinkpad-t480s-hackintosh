@@ -1402,23 +1402,23 @@
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02824301J9HWVPUE</string>
+			<string>C02007609GUJH4RA8</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>9PlRvb9C</data>
+			<data>pLGXSab8</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>MacBookPro14,1</string>
+			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02WV05QHV29</string>
+			<string>C02C80VUJHCC</string>
 			<key>SystemUUID</key>
-			<string>CE0745E8-1167-4C55-B710-26E7A4BAAD1F</string>
+			<string>5D96F3B6-8650-4047-903B-B43C2C549BA9</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
