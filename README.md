@@ -1,18 +1,15 @@
-This EFI is currently incomplete and is not very useful. At the moment, only Ventura works on my machine. Sonoma may have been broken with a point release. This will be fixed soon. Hopefully, in the future, I can get Sequoia working.
-
 # thinkpad-t480s-hackintosh
-A prebuilt OpenCore EFI for macOS on the Lenovo ThinkPad T480s
 
-**WARNING! If running Sonoma, ethernet IS required for initial half of setup if you use an internet-based installer. You will need to install Heliport for Wi-Fi. Ventura users can use Wi-Fi with no issues.**
+A prebuilt OpenCore EFI for macOS on the Lenovo ThinkPad T480s, based on the work of [Lost-Entrepreneur439](https://github.com/Lost-Entrepreneur439).
 
-This is a macOS EFI for the Lenovo ThinkPad T480s, with support for Intel Wi-Fi cards. Ventura and Sonoma compatible.
+This is a macOS EFI for the Lenovo ThinkPad T480s, with support for Intel Wi-Fi cards. Currently, Ventura and Sonoma are supported. Sequoia should work with minimal changes, but this laptop is my daily driver, so anybody who wants a Sequoia-compatible EFI will have to wait until I get around to running it.
 
-Follow the "Downloading macOS" section in the Dortania guide to get macOS. ***Support will not be offered if you get macOS from any other source.*** https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html#downloading-macos. After installing macOS, you will need to disable force clicking, as by default macOS will register all clicks as force clicks (System Settings -> Trackpad -> Uncheck "Force Click and haptic feedback")
+Follow the ["Downloading macOS" section in the Dortania guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/) to get macOS. ***Support will not be offered if you get macOS from any other source.*** After installing macOS, you will need to disable force clicking, as by default macOS will register all clicks as force clicks (System Settings -> Trackpad -> Uncheck "Force Click and haptic feedback")
 
 ![Screenshot](https://github.com/WCBROW01/thinkpad-t480s-hackintosh/blob/main/untitled.png)
 
 # Specs of my specific unit:
-- CPU: Intel Core i5-8350u
+- CPU: Intel Core i5-8350U
 - GPU: Intel UHD Graphics 620
 - RAM: 24GB (8GB soldered, 16GB Samsung stick inserted)
 - Touchpad: Elan SMBus
